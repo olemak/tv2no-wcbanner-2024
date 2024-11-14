@@ -3,5 +3,21 @@
 </script>
 
 <h1>Skiskyting banner:</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<Banner current="84" />
+
+
+<p></p>
+<Banner current="85" />
+
+
+
+<style>
+.banner {
+
+}
+</style>
+
+
+
+
+
+
