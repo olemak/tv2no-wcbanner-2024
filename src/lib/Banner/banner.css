@@ -1,0 +1,75 @@
+.outer-box {
+    background: rgb(65, 12, 81);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    container-type: inline-size;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 4px;
+}
+
+
+/* Indre boks med gradient bakgrunn og rundere hjørner */
+.inner-box {
+    height: 100%;
+    background: linear-gradient(-60deg, #002171 50%, #0d47a1 50%);
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 4px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.image {
+    max-width: 100px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+/* Stil for tekst inni den indre boksen */
+.text-wrapper {
+    flex: 1 1 50%;
+    min-width: 120px;
+    font-size: 1.2em;
+    color: white;
+} 
+
+.top-text { 
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin-top: 10px;
+ }
+
+.names-and-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+ .number {
+     font-size: 45px;
+     font-weight: bold;
+     color: white;
+     margin: 0;
+ }
+ .number.variable {
+     color: #aaff72; 
+ }
+ 
+.name {
+     color: white; 
+     font-weight: bold;
+ }
+
+ .name-last {
+    text-align: right;
+ }
