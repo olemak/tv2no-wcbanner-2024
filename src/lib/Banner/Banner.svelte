@@ -9,10 +9,12 @@
         <section class="text-wrapper">
             <h3 class="top-text">Jakten på Bjørndalen</h3> 
             <section class="names-and-numbers">
-                <p class="name">Johannes<br>Thingsnes Bø</p>
-                <p class="number variable">84</p>
-                <p class="number static">95</p>
-                <p class="name name-last">Ole Einar<br>Bjørndalen</p>
+                <span class="name">Johannes<br>Thingsnes Bø</span>
+                <span>
+                    <span class="number variable">84</span>
+                    <span class="number static">95</span>
+                </span>
+                <span class="name name-last">Ole Einar<br>Bjørndalen</span>
             </section>
         </section>
 
