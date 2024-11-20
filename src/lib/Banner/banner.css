@@ -1,0 +1,95 @@
+.outer-box {
+    background: rgb(65, 12, 81);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 800px;
+    container-type: inline-size;
+}
+
+
+/* Indre boks med gradient bakgrunn og rundere hjørner */
+.inner-box {
+    background: linear-gradient(-60deg, #002171 50%, #0d47a1 50%);
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 4px;
+    
+    @container (min-width: 600px) {
+        margin: 4px;
+        border-radius: 100px;
+    }
+}
+
+.image {
+    max-width: 100px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50px;
+
+    @container (max-width: 600px) {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+.image_2 {
+    right: 20px;
+
+    @container (max-width: 600px) {
+        left: initial;
+        right: 20px;
+    }
+}
+
+
+/* Stil for tekst inni den indre boksen */
+.text-wrapper {
+    flex: 1 1 50%;
+    min-width: 120px;
+    font-size: 1.2em;
+    color: white;
+    font-size: clamp(12px, 2cqw, 20px);  /* MÅ JUSTERES */
+} 
+
+.top-text { 
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+.names-and-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+ .number {
+     font-size: 4em;
+     font-weight: bold;
+     color: white;
+     margin: 0;
+     justify-self: center;
+     margin: 0 12px;
+ }
+
+ .number.variable {
+     color: #aaff72;
+     margin-left: 0;
+}
+ 
+.name {
+     color: white; 
+     font-weight: bold;
+     width: 100%;
+     max-width: 130px;
+ }
+
+ .name-last {
+    text-align: right;
+ }
